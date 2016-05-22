@@ -3,4 +3,4 @@
     .component('mainComponents', {
         templateUrl: 'app/components/main-components.html',
     })
-})
+}())
