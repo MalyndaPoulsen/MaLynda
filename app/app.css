@@ -1,5 +1,5 @@
 
-.bg-full{
+#heading{
    background:grey url('/app/img/Back3.jpg') center center no-repeat fixed;
      -webkit-background-size: cover;
  -moz-background-size: cover;
@@ -8,7 +8,7 @@
     height: 100%;
 }
 #night{
-   background:grey url('/app/img/Back4.jpg') center center no-repeat fixed;
+   background:grey url('/app/img/ducks.png') center center no-repeat fixed;
      -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -45,7 +45,7 @@
     -o-background-size: cover;
     background-size: cover;
 }
-#heading h1{ 
+#heading h1{
    color: e7ae22;
    padding-top:120px;
    font-size: 80px;
@@ -69,9 +69,68 @@
        text-align:center;
        padding-top:170px;
    }
-   .module-two {
+
+.hero-text img{
+    height:300px;
+    margin-top: 54px;
+    margin-bottom:25px;
+}
+#title h1{
+   color: e7ae22;
+   margin-top:70px;
+   padding-top:110px;
+   font-size: 80px;
+
+   }
+   #title p{
+   margin-top:0;
+   font-size: 20px;
+   }
+
+   #title{
+       text-align:center;
+   }
+   #title-skills{
+       text-align:center;
+
+   }
+   #title-skills h1{
+   color: e7ae22;
+   margin-top:150px;
+   margin-bottom: 0px;
+   padding-top:180px;
+   font-size: 80px;
+   }
+     #title-skills p{
+  text-decoration-line: narrow;
+   color: grey;
+   margin-top:0;
+   font-size: 20px;
+   }
+ 
+   .skills-text {
+    color:grey;
     position: relative;
-    background: white;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding-top:15px;
+}
+.skills-caption {
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.skills-text h1{
+    color: white;
+}
+.module-skills {
+    position: relative;
+    background: black;
+    background: url('/app/img/ducks.png');
+    margin-left:-15px;
+    margin-right:-15px;
     background-repeat: no-repeat;
     background-position: center center;
     -webkit-background-size: cover;
@@ -79,38 +138,45 @@
     -o-background-size: cover;
     background-size: cover;
 }
-.hero-text img{
-    height:300px;
-    margin-top: 54px;
-    margin-bottom:25px;
+#quote{
+    text-align:center;
+    
 }
-#title h1{ 
-   color: e7ae22;
-   margin-top:100px;
-   padding-top:110px;
-   font-size: 80px;
-
-   }
-   #title p{ 
-   margin-top:0;
-   font-size: 20px;
-   }
+#me{
+  
+    position: center center;
    
-   #title{
-       text-align:center;
-   }
-   #title-skills{
-       text-align:center;
-   }
-   #title-skills h1{ 
-   color: e7ae22;
-   margin-top:150px;
-   padding-top:180px;
-   font-size: 80px;
-   }
-     #title-skills p{ 
-  text-decoration-line: narrow;
-    color: grey;
-   margin-top:0;
-   font-size: 20px;
-   }
+}
+.duck .row{
+    width: 1000px;
+    height: 123px;
+    margin: 10px;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    background: url('/app/img/ducks1.png')repeat-x left center;
+    background-size: 1000px 123px;
+    padding: 0px;
+    -webkit-animation: displace 2s linear infinite;
+    animation: displace 6s linear infinite;
+}
+@-webkit-keyframes displace {
+    from{
+        background-position: 0 center;
+    }
+to 
+{
+    background-position: 1000px center;
+}
+}
+/*@-keyframes displace {
+    from{
+        background-position: 0 center;
+    }
+to 
+{
+    background-position: 160px center;
+}
+}*/
+
