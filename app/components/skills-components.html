@@ -1,54 +1,74 @@
-
-<div class="container-fluid">
-    <div id="night" class="row bg-full">
-        <!-- first page main picture-->
-        <div id="title-skills" class='col-xs-12'>
-            <h1>Skills</h1>
-            <p>Software, Languages, and Frameworks</p>
-           
-        </div>
+<div class="skills container-fluid">
+	<div id="night" class="row bg-full">
+		<div id="title-skills" class='col-xs-12'>
+			<h1>Skills</h1>
+			<p>Software, Languages, and Frameworks</p>
+			
+		
+		<a><img src="app/img/target.png" ng-click="show = !show"  style="height: 25%"><p>click</p></a>
 		</div>
-		<div class="row" id="raccoons">
-			<div id="raccoon-reel" class="col-sm-12">
-			</div>
-        <!--<div class="ducks">-->
-        </div>
-    </div>
+	</div>
+	<div id="skills-text" class="row bg-full">
+		<div class="col-sm-8 col-sm-offset-2">
+			<section id="skills" ng-show="show" class="module-skill module-parallax module-full-height bg-dark-60">
+	
+		<div class="col-xs-4">
+			<ul>
+				<li>Photoshop</li>
+				<li>HTML5</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+
+			</ul>
+		</div>
+		<div class="col-xs-4">
+			<ul>
+				<li>AngularJS</li>
+				<li>UI-Router</li>
+				<li>UI-Router</li>
+				<li>Bootstrap</li>
+			</ul>
+		</div>
+		<div class="col-xs-4">
+			<ul>
+				<li>NodeJS</li>
+				<li>Firebase</li>
+				<li>SQL</li>
+				<li>JS Data</li>
+			</ul>
+		</div>
+	</section>
+	</div>
+	</div>
+		<!-- first page main picture-->
 
 
-<div id="duck-shoot" class="row">
-			<div class="ducks col-sm-8 col-sm-offset-2">
-   <section id="skills" class="module-skills module-parallax module-full-height bg-dark-60">
+	<div id="duck-shoot" class="row">
+		<div class="ducks col-sm-8 col-sm-offset-2">
+			<section id="skills" ng-show="!show" class="module-skills module-parallax module-full-height bg-dark-60">
 
-                <div  class="row wave">
+				<div class="row wave">
 					<p class="wv"></p>
 				</div>
 				<div class="duck row">
 					<p class="duck1"></p>
 				</div>
-				<div  class="row wave">
+				<div class="row wave">
 					<p class="wv"></p>
 				</div>
 				<div class="duck row">
 					<p class="duck2"></p>
 				</div>
-                <div  class="row wave">
+				<div class="row wave">
 					<p class="wv"></p>
 				</div>
 				<div class="duck row">
 					<p class="duck3"></p>
 				</div>
-			<!-- HERO TEXT -->
-			<!--<div class="skills-caption">
-				<div class="skills-text">
-					<h5 class="mh-line-size-4 font-alt m-b-50">Web Developer & Designer</h5>
-					<h1 class="mh-line-size-1 font-alt m-b-60">MaLynda Poulsen</h1>
-					<h5 class="mh-line-size-5 font-alt m-b-50">"The way to get good ideas is to get lots of ideas and throw the bad ones away."<br>
-                    <em><span>— Linus Pauling</span><em></h5>
-				</div>
-			</div>-->
-			<!-- /HERO TEXT -->
+				</section>
+		</div>
+	</div>
 
-		</section>
-			</div>
+</div>
+</div>
 </div>
