@@ -250,6 +250,7 @@ height:180px;
 }
 #about{
     padding-top: 10px;
+    padding-bottom: 100px;
    
 }
 #about-me {
@@ -276,7 +277,7 @@ height:180px;
 }
 #portfolio-grid{
         position: relative;
-    height: 1380px;
+    height: 600px;
 }
 .text{
     color: red;
@@ -321,19 +322,25 @@ height:180px;
     -o-background-size: cover;
     background-size: cover;
 }
+#work{
+    padding-top:100px;
+}
 #work .row{
-    margin-top: 40px;
+    margin-top: 35px;
     text-align: center;
 }
 #port-filters{
     /*display: table;*/
+    margin-top:0;
         margin-left: -15px;
     margin-right: -15px;
+    margin-bottom: 45px;
 }
 #port-filters .filt{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .filt ul{
+    margin-top: 0px;
     margin:0;
     padding:0;
     list-style-type: none;
@@ -358,11 +365,14 @@ height:180px;
         margin: 0 -5px;
 }
 .portfolio-grid{
+    margin-top: 25px;
     position: relative;
-    height: 1380px;
+    height: 500px;
     width:100%;
     display: block;
 }
+
+
 #skills ul{
     margin-left:-15;
     margin-right: -15;
@@ -380,4 +390,38 @@ height:180px;
     /*color: black;
     margin: 6px 0 6px;*/
 }
+#school{
+       background:black url('/app/img/EducationBG3.jpg')center center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+    height: 100%;
+    padding-top:100px;
+}
+.education{
+   
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
 
+
+#education-text{
+       text-align: center;
+    margin-top: 50px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+     text-align: center;
+     padding: 0 0 0 0;
+    margin: 0 -15 0 -15;
+  background: black;
+  color: lightgrey;
+}
+#title-education h2{
+    color: lightgrey;
+}
