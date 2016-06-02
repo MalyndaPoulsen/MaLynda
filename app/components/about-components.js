@@ -26,41 +26,38 @@
     function AboutController() {
         var ac = this;
 
-        var id = x;
-        var num = y;
 
-        var tempArray = [];
 
-        var getParams = function () {
-            for (var i = 0; i < paramsArray.length; i++) {
-                var x = paramsArray[i].id;
-                var y = paramsArray[i].num;
-                 
-                ac.moveBar(x, y);
-                ac.moveHorse(x, y);
+    ac.moveBar = function (id, num) {
+        $("#horse-" + id + "-progress").animate({ 'width': num + 'px' }, 3000, 'linear');
+    }
 
-                }
+    ac.moveHorse = function (id, num) {
+        $("#horse-" + id).animate({ left: num + 'px' }, 3000, 'linear');
+    };
+      
 
-            }
+    var getParams = function () {
+        for (var i = 0; i < paramsArray.length; i++) {
+            var x = paramsArray[i].id;
+            var y = paramsArray[i].num;
+
+            ac.moveBar(x, y);
+            ac.moveHorse(x, y);
+
         }
-
-
-        ac.moveBar = function (id, num) {
-            $("#horse-" + id + "-progress").animate({ 'width': num + 'px' }, 3000, 'linear');
-        }
-
-        ac.moveHorse = function (id, num) {
-            $("#horse-" + id).animate({ left: num + 'px' }, 3000, 'linear');
-        };
-
-
-        var waypoint = new Waypoint({
-            element: document.getElementById('about-me'),
-            handler: function (direction) {
-                getParams();
-            }
-        })
 
     }
 
+    var waypoint = new Waypoint({
+        element: document.getElementById('about-me'),
+        handler: function (direction) {
+           
+            getParams();
+        }
+    })
+
+}
+
+    }
     ());

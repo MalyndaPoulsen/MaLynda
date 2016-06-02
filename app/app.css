@@ -205,6 +205,7 @@ to
     padding-top:25px;
     padding-bottom:55px;
     background:black;
+
 }
 
 
@@ -391,7 +392,7 @@ height:180px;
     margin: 6px 0 6px;*/
 }
 #school{
-       background:black url('/app/img/EducationBG3.jpg')center center no-repeat fixed;
+       background:black url('/app/img/marionettesD.jpg')center center no-repeat;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -425,3 +426,54 @@ height:180px;
 #title-education h2{
     color: lightgrey;
 }
+
+.interests-container{
+  background:grey url('/app/img/Back3.jpg') center center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 100%;}
+
+/*.owl-item{
+    margin-right:143px;
+}*/
+
+#ScrollStyle{
+overflow-x:scroll; 
+overflow-y:hidden;
+border-radius:5px; 
+height:380px;
+border: 3px solid darkgoldenrod;
+
+}
+.owl-wrapper{
+    display: inline-block;
+    width: 2000px;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 5 0 5 25;
+    color: black; 
+}
+
+
+/*
+@-webkit-keyframes displace {
+    from{
+        background-position: 0 center;
+    }
+to 
+{
+    background-position: 1000px center;
+}
+}
+@keyframes displace {
+    from{
+        background-position: 0 center;
+    }
+to 
+{
+    background-position: 1000px center;
+}
+}*/
