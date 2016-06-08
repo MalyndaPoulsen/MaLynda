@@ -11,34 +11,41 @@
 
         var paramsArray = [{
             id: 1,
-            num: 480,
-            numb: 400,
+            num: 485,
+            numb: 532,
         },
             {
                 id: 2,
-                num: 500,
-                numb: 300,
+                num: 462,
+                numb: 500,
             },
             {
                 id: 3,
-                num: 350,
+                num: 357,
                 numb: 400,
             },
             {
                 id: 4,
-                num: 400,
-                numb: 200,
+                num: 403,
+                numb: 447,
             },
             {
                 id: 5,
-                num: 400,
-                numb: 200,
+                num: 476,
+                numb: 520,
             },
             {
                 id: 6,
-                num: 400,
-                numb: 200,
-            }];
+                num: 356,
+                numb: 400,
+            },
+            {
+                id: 7,
+                num: 511,
+                numb: 580,
+            },
+         
+            ];
 
 
 

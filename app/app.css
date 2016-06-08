@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, body{
 
 #big-deal{
     height: 100%;
-    background-size: 100%;
+    background-size: 50%;
     position: relative;
     left: 20%;
      background: url('/app/img/Bigdeal.png') no-repeat;
@@ -229,18 +229,25 @@ width:100%;
 height:20%;
 margin: 0 0 0 0;
 }
-
+#race .progress{
+margin-bottom: 60px;
+}
 
 .progress-bar{
     background-color: darkgrey;
+    margin-bottom: 40px;
 }
 #about{
     padding-top: 110px;
     padding-bottom: 110px;
    
 }
+.about{
+    margin-top: 35px;
+}
 .about p, li{
-font-size: 12px;
+   text-align: left;
+font-size: 14px;
 }
 #about-me {
     text-align: center;
@@ -248,7 +255,9 @@ font-size: 12px;
      margin-bottom: 20px;
 }
 
-
+#race{
+    margin-top: 47px;
+}
 #race h6{
     margin-bottom: 41px;
 }
@@ -363,11 +372,37 @@ font-size: 12px;
 }
 
 
-#text{
-    margin-top: 80px;
+.ScrollStyle{
+    margin-top: 20px;
+    max-height: 350px;
+    overflow-y: scroll;
+    border: .5px solid darkgoldenrod;
+    border-radius: 5px;
+}
+.ScrollStyle li{
+    opacity: .50; 
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)"; 
+    -khtml-opacity: .50;
+    -moz-opacity: .50; 
+margin-top:10px;
+margin-right:50px;
+margin-left:50px;
+margin-bottom: 10px;
+padding-top: 0px;
+padding-right: 25px;
+padding-bottom: 0px;
+padding-left: 25px;
+}
+.ScrollStyle li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid darkgoldenrod;
 }
 
-#education-text{
+
+#education-text {
        text-align: right;
     margin-top: 26px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -375,7 +410,7 @@ font-size: 12px;
     line-height: 1.42857143;
      padding: 0 0 0 0;
     margin: 0 -15 0 -15;
-  background: white opacity .5;
+  background: white opacity .6;
   color: lightgrey;
 }
 
@@ -443,6 +478,4 @@ foot{
    top: 220px; 
    background-attachment: fixed;
 }
-/*#raccoon3.gif{
 
-}*/
