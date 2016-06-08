@@ -239,6 +239,9 @@ margin: 0 0 0 0;
     padding-bottom: 110px;
    
 }
+.about p, li{
+font-size: 20px;
+}
 #about-me {
     text-align: center;
      padding-bottom:20px;
