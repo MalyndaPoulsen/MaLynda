@@ -8,7 +8,7 @@
 
     function AboutController() {
         var ac = this;
-
+        var num = -40;
         var paramsArray = [{
             id: 1,
             num: 485,
@@ -72,9 +72,19 @@
         }
 
         var resetParams = function () {
-            var y = 0;
+            var y = -40;
             var d = 0;
         }
+        // reset horses
+        var waypoint5 = new Waypoint({
+            element: document.getElementById('big-deal'),
+            handler: function (direction) {
+                if (direction === 'down') {
+                    resetParams()
+                    getParams();
+            }
+            }
+        })
 
         var waypoint = new Waypoint({
             element: document.getElementById('about'),

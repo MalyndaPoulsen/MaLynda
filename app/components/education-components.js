@@ -2,28 +2,31 @@
     angular.module('MaLynda')
     .component('educationComponents', {
         templateUrl: 'app/components/education-components.html',
-          controller: EdsController,
+          controller: EducationController,
     })
-        function EdsController() {
+        function EducationController() {
         var ec = this;
         
-        var once = ''
-        var waypoint3 = new Waypoint({
-            element: document.getElementById('night'),
-            handler: function (direction){
-                if(direction === 'down' && !once){
-                    $('#night').append('<img class="img-responsive" id="raccoon3.gif"  alt="" src="app/img/raccoon3.gif">')
-                    once = 'already appended'
-                    setTimeout(function(){
-                        $('#night').empty();
-                        $('#night').apend('<img src="app/img/raccoon.png">')
-                    }, 500)    
-                }
-                if(direction == 'up'){ 
-                    $('#night').empty()
-                }
-            }
-        })
+      ec.changeBackground = function (){
+          $('#raccoons').empty();
+          $('#educational-experience'+'1')
+      }
+      ec.changeBackground();
+        // var waypoint3 = new Waypoint({
+        //     element: document.getElementById('description'),
+        //     handler: function (direction){
+        //         if(direction === 'down'){
+        //             $('#raccoons').empty();
+        //             $('#raccoons').append('<img src="app/img/raccoon4.gif" style="position: absolute; right: -180px; background: bottom no-repeat;  background-size: 60%; height: 100%;  margin: 0 0 0 0;">')
+        //             setTimeout(function(){
+        //                 $('#raccoons').empty();
+        //                 $('#raccoons').append('<img src="app/img/raccoon.png" style="position: absolute; right: -180px; background: bottom no-repeat;  background-size: 60%; height: 100%;  margin: 0 0 0 0;">')
+        //             }, 2500) 
+        //             ec.changeBackground();
+        //         }
+               
+        //     }
+        // })
     }
 
 }())
