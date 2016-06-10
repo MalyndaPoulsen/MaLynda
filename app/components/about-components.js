@@ -90,12 +90,10 @@
             element: document.getElementById('about'),
             handler: function (direction) {
                 if (direction === 'down') {
-
                     getParams();
                 } else {
                     resetParams()
                 }
-
             }
         })
 
@@ -103,11 +101,9 @@
             element: document.getElementById('horse-4'),
             handler: function (direction) {
                 if (direction === 'up') {
-
                     resetParams();
                 } else {
-
-                    getParams();
+               getParams();
                 }
             }
         })

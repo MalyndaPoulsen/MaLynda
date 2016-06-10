@@ -1,58 +1,37 @@
+/*no overflow to the sides*/
+
 body, html{
 overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, body{
+h1, h2, h3, h4, h5, body, p{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+/*main page*/
 #heading{
-   background:grey url('/app/img/Back1.jpg') center center no-repeat fixed;
+   background:grey url('/app/img/Back3.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
     height: 100%;
 }
-#education-experience{
-  background:grey url('/app/img/Back3.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- height: 100%;
+/*navbar*/
+.navbar{
+    background-color: black;
 }
-#education-experience1{
-  background:grey url('/app/img/Back4.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- height: 100%;
-   -webkit-animation-name: transition;
-    -webkit-animation-duration: 4s; 
-    animation-name: transition;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
+.list-inline{
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-left: 0px;
 }
-
-
-@-webkit-keyframes transition{
-    0%   {  background: url('/app/img/Back3.jpg')no-repeat;}
-    100%  {  background: url('/app/img/Back4.jpg')no-repeat;}
-}
-@keyframes transition{
-      0%   {  background: url('/app/img/Back3.jpg')no-repeat;}
-    100%  {  background: url('/app/img/Back4.jpg')no-repeat;}
-}
-
-#hero{
-     color:grey;
- text-align:center;
-    height: 110%;
-    padding-top:5px;
+.list-inline li{
   
+    margin-left: -15px;
+    padding-left: 0px;
 }
 
+/*bigdeal animation*/
 
 #big-deal{
     height: 100%;
@@ -266,11 +245,11 @@ margin-bottom: 60px;
    
 }
 .about{
-    margin-top: 35px;
+    margin-top: 42px;
 }
 .about p, li{
    text-align: left;
-font-size: 14px;
+font-size: 15px;
 }
 #about-me {
     text-align: center;
@@ -328,6 +307,8 @@ font-size: 14px;
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*portfolio*/
 #work{
     padding-top:100px;
 }
@@ -378,8 +359,11 @@ font-size: 14px;
     display: block;
 }
 
+.portfolio-caption {
+  color: black;
+}
 
-#skills ul{
+/*#skills ul{
     margin-left:-15;
     margin-right: -15;
     margin-bottom: 54px;
@@ -388,11 +372,31 @@ font-size: 14px;
   border-bottom:0;
     border-left: 1px solid darkred;
       border-right: 1px solid darkred;
+}*/
+
+
+
+/*education page*/
+#education-experience{
+  background: url('/app/img/Back4.jpg') center center no-repeat fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ height: 110%;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-bottom: 3px solid darkgoldenrod;
+
+}
+#printVersion img{
+position: absolute; 
+     width: 75px;
+    top: 36px;
+    left: 0px;
+    opacity: .8;
 }
 
-.portfolio-caption {
-  color: black;
-}
 .ScrollStyle ul{
     color: lightgrey;
 }
@@ -420,13 +424,6 @@ padding-right: 25px;
 padding-bottom: 0px;
 padding-left: 25px;
 }
-.ScrollStyle li:hover{
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid darkgoldenrod;
-}
-
 
 #education-text {
        text-align: right;
@@ -440,13 +437,7 @@ padding-left: 25px;
   color: lightgrey;
 }
 
-
-/*img .displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }*/
-
-
+/*scroll down tag*/
 .scroll-down{
     text-align:center;
     position: fixed center;
@@ -460,8 +451,9 @@ padding-left: 25px;
 .scroll-down p{
     margin-bottom: -30px;
 }
+
+/*contact page*/
 #contact{
-    padding-bottom: -150px;
     margin-bottom: 0px;
 }
 #contact-me{
@@ -469,10 +461,21 @@ padding-left: 25px;
 }
 #contact-me ul{
     list-style-type: none;
-    border-left: 1px solid darkgoldenrod;
 }
 #contact-me li{
     font-size: 20px;
 
 }
-
+/*
+.racoons{
+    position: absolute;
+    right: -180px; 
+    background: bottom no-repeat; 
+    height: 98%; 
+}*/
+/*.print{
+    position: absolute;
+    height: 50%;
+    bottom: 0px;
+    right: 0px;
+}*/

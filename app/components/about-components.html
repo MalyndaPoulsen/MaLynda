@@ -17,7 +17,7 @@
 
 				<div class="about col-sm-6">
 
-					<!--<h5 class="font-alt m-t-0 m-b-20">My Skill Set</h5>-->
+					
 					<p>
 						With over 20 years of experience in design, web development, education, and retail management , my diverse skill set make
 						me unique and highly adaptable. My portfolio demonstrates visual design thinking and proficiency in a variety of formats.
@@ -31,7 +31,7 @@
 						<li>
 							I am proficient in HTML/Javascript/CSS/ Bootstrap/Angular/jQuery, and am able to prototype in these mediums.
 						</li>
-							<li>
+						<li>
 							I use GitHub for version control.
 						</li>
 						<li>
@@ -54,16 +54,19 @@
 						<li>
 							I possess exceptional drawing skills.
 						</li>
-						<li>I demostrate integrity and accountability in all that I do.</li>
+						<li>I demonstrate integrity and accountability in all that I do.</li>
 					</ul>
+					<a ng-click="show = !show">
+						<p>To read more...</p>
+					</a>
 
-					<p>
-						I gained valuable experience from each professional opportunity and have obtained a vast skill set, both technically
-						and organizationally. Within both public and private organizations, I have become adept at navigating all sorts of
-						individuals in varied settings. I strive for collaboration, collegiality, and respect diverse ideas and opinions in
-						all I undertake. My decade of management experience combined with web development skills and eight years of teaching
-						in visual art foundations, makes me uniquely qualified for positions that require both design and development skills.</p>
-
+					<div ng-show="show">
+						<p>I gained valuable experience from each professional opportunity and have obtained a vast skill set, both technically
+							and organizationally. Within both public and private organizations, I have become adept at navigating all sorts of
+							individuals in varied settings. I strive for collaboration, collegiality, and respect diverse ideas and opinions in
+							all I undertake. My decade of management experience combined with web development skills and eight years of teaching
+							in visual art foundations, makes me uniquely qualified for positions that require both design and development skills.</p>
+					</div>
 				</div>
 
 				<!-- SKILLS -->
