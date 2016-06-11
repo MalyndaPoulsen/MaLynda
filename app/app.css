@@ -258,10 +258,19 @@ font-size: 15px;
 }
 
 #race{
-    margin-top: 47px;
+    margin-top: 86px;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right:0px;
 }
+
 #race h6{
     margin-bottom: 41px;
+}
+#race .progress{
+    margin-bottom: 70px;
 }
 #portfolio-grid{
         position: relative;

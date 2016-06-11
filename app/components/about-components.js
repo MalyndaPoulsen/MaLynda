@@ -8,41 +8,42 @@
 
     function AboutController() {
         var ac = this;
-        var num = -40;
+        var num = -8;
+        var numb = 0;
         var paramsArray = [{
             id: 1,
-            num: 485,
-            numb: 532,
+            num: 81,
+            numb: 95,
         },
             {
                 id: 2,
-                num: 462,
-                numb: 500,
+                num: 77,
+                numb: 77,
             },
             {
                 id: 3,
-                num: 357,
-                numb: 400,
+                num: 37,
+                numb: 40,
             },
             {
                 id: 4,
-                num: 403,
-                numb: 447,
+                num: 43,
+                numb: 47,
             },
             {
                 id: 5,
-                num: 476,
-                numb: 520,
+                num: 46,
+                numb: 50,
             },
             {
                 id: 6,
-                num: 356,
-                numb: 400,
+                num: 36,
+                numb: 40,
             },
             {
                 id: 7,
-                num: 511,
-                numb: 580,
+                num: 51,
+                numb: 50,
             },
          
             ];
@@ -50,11 +51,11 @@
 
 
         ac.moveBar = function (id, numb) {
-            $("#horse-" + id + "-progress").animate({ 'width': numb + 'px' }, 3000, 'linear');
+            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 3000, 'linear');
         }
 
         ac.moveHorse = function (id, num) {
-            $("#horse-" + id).animate({ left: num + 'px' }, 3000, 'linear');
+            $("#horse-" + id).animate({ left: num + '%' }, 3000, 'linear');
         };
 
 
@@ -72,7 +73,7 @@
         }
 
         var resetParams = function () {
-            var y = -40;
+            var y = 0;
             var d = 0;
         }
         // reset horses
@@ -80,7 +81,7 @@
             element: document.getElementById('big-deal'),
             handler: function (direction) {
                 if (direction === 'down') {
-                    resetParams()
+                    // resetParams()
                     getParams();
             }
             }
@@ -91,22 +92,22 @@
             handler: function (direction) {
                 if (direction === 'down') {
                     getParams();
-                } else {
-                    resetParams()
+                // } else {
+                //     resetParams()
                 }
             }
         })
 
-        var waypoint4 = new Waypoint({
-            element: document.getElementById('horse-4'),
-            handler: function (direction) {
-                if (direction === 'up') {
-                    resetParams();
-                } else {
-               getParams();
-                }
-            }
-        })
+        // var waypoint4 = new Waypoint({
+        //     element: document.getElementById('horse-4'),
+        //     handler: function (direction) {
+        //         if (direction === 'up') {
+        //             resetParams();
+        //         } else {
+        //        getParams();
+        //         }
+        //     }
+        // })
 
     }
 
