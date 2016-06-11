@@ -8,11 +8,11 @@
 
     function AboutController() {
         var ac = this;
-        var num = -40;
+        var num = 0;
         var paramsArray = [{
             id: 1,
-            num: 485,
-            numb: 532,
+            num: 75,
+            numb: 75,
         },
             {
                 id: 2,
@@ -50,11 +50,11 @@
 
 
         ac.moveBar = function (id, numb) {
-            $("#horse-" + id + "-progress").animate({ 'width': numb + 'px' }, 3000, 'linear');
+            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 3000, 'linear');
         }
 
         ac.moveHorse = function (id, num) {
-            $("#horse-" + id).animate({ left: num + 'px' }, 3000, 'linear');
+            $("#horse-" + id).animate({ left: num + '%' }, 3000, 'linear');
         };
 
 
@@ -72,7 +72,7 @@
         }
 
         var resetParams = function () {
-            var y = -40;
+            var y = 0;
             var d = 0;
         }
         // reset horses
@@ -97,16 +97,16 @@
             }
         })
 
-        var waypoint4 = new Waypoint({
-            element: document.getElementById('horse-4'),
-            handler: function (direction) {
-                if (direction === 'up') {
-                    resetParams();
-                } else {
-               getParams();
-                }
-            }
-        })
+        // var waypoint4 = new Waypoint({
+        //     element: document.getElementById('horse-4'),
+        //     handler: function (direction) {
+        //         if (direction === 'up') {
+        //             resetParams();
+        //         } else {
+        //        getParams();
+        //         }
+        //     }
+        // })
 
     }
 

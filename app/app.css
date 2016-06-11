@@ -259,6 +259,7 @@ font-size: 15px;
 
 #race{
     margin-top: 47px;
+    position: relative;
 }
 #race h6{
     margin-bottom: 41px;
