@@ -23,16 +23,16 @@
             {
                 id: 3,
                 num: 37,
-                numb: 40,
+                numb: 46,
             },
             {
                 id: 4,
                 num: 43,
-                numb: 47,
+                numb: 37,
             },
             {
                 id: 5,
-                num: 46,
+                num: 70,
                 numb: 50,
             },
             {
@@ -73,7 +73,7 @@
         }
 
         var resetParams = function () {
-            var y = 0;
+            var y = -40;
             var d = 0;
         }
         // reset horses
@@ -81,7 +81,7 @@
             element: document.getElementById('big-deal'),
             handler: function (direction) {
                 if (direction === 'down') {
-                    // resetParams()
+                    resetParams()
                     getParams();
             }
             }
@@ -92,22 +92,22 @@
             handler: function (direction) {
                 if (direction === 'down') {
                     getParams();
-                // } else {
-                //     resetParams()
+                } else {
+                    resetParams()
                 }
             }
         })
 
-        // var waypoint4 = new Waypoint({
-        //     element: document.getElementById('horse-4'),
-        //     handler: function (direction) {
-        //         if (direction === 'up') {
-        //             resetParams();
-        //         } else {
-        //        getParams();
-        //         }
-        //     }
-        // })
+        var waypoint4 = new Waypoint({
+            element: document.getElementById('horse-4'),
+            handler: function (direction) {
+                if (direction === 'up') {
+                    resetParams();
+                } else {
+               getParams();
+                }
+            }
+        })
 
     }
 
