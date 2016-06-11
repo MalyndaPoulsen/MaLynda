@@ -265,7 +265,12 @@ font-size: 15px;
     margin-left: 0px;
     margin-right:0px;
 }
-
+#horse-6{
+    height:60%; 
+    left: num; 
+    position: absolute; 
+    top:-60%;
+}
 #race h6{
     margin-bottom: 41px;
 }

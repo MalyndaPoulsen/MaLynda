@@ -13,11 +13,11 @@
         var paramsArray = [{
             id: 1,
             num: 81,
-            numb: 95,
+            numb: 93,
         },
             {
                 id: 2,
-                num: 77,
+                num: 66,
                 numb: 77,
             },
             {
