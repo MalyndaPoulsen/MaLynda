@@ -31,6 +31,9 @@ h1, h2, h3, h4, h5, body, p{
     padding-left: 0px;
 }
 
+/*.hero{
+    position: relative;
+}*/
 /*bigdeal animation*/
 
 #big-deal{
@@ -69,7 +72,6 @@ h1, h2, h3, h4, h5, body, p{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
- 
 }
 #heading h1{
    color: e7ae22;
@@ -403,13 +405,6 @@ font-size: 15px;
     border-bottom: 3px solid darkgoldenrod;
 
 }
-#printVersion img{
-position: absolute; 
-     width: 75px;
-    top: 36px;
-    left: 0px;
-    opacity: .8;
-}
 
 .ScrollStyle ul{
     color: lightgrey;
@@ -480,6 +475,12 @@ padding-left: 25px;
     font-size: 20px;
 
 }
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
 /*
 .racoons{
     position: absolute;
@@ -487,15 +488,33 @@ padding-left: 25px;
     background: bottom no-repeat; 
     height: 98%; 
 }*/
-/*.print{
-    position: absolute;
-    height: 50%;
-    bottom: 0px;
-    right: 0px;
-}*/
-#myModal{
-width: 900px;
+
+
+#printVersion img{
+position: absolute; 
+     width: 75px;
+    top: 36px;
+    left: 0px;
+    opacity: .8;
 }
 #resume{
     text-align: left;
+}
+@media screen {
+    #printSection {
+        display: none;
+    }
+}
+@media print {
+    body * {
+        visibility:hidden;
+    }
+    #printSection, #printSection * {
+        visibility:visible;
+    }
+    #printSection {
+        position:absolute;
+        left:0;
+        top:0;
+    }
 }
