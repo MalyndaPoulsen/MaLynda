@@ -531,8 +531,8 @@ position: absolute;
         top:0;
     }
 }
-/*@media print {
+@media print {
     html, body {
         height: 99%;    
     }
-}*/
+}
