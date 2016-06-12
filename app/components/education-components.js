@@ -6,7 +6,6 @@
     })
         function EducationController() {
         var ec = this;
-
 document.getElementById("Print").onclick = function () {
     printElement(document.getElementById("printThis"));
 };
@@ -26,7 +25,6 @@ function printElement(elem) {
     $printSection.appendChild(domClone);
     window.print();
 }
-
 
 
         
