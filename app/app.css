@@ -478,10 +478,14 @@ padding-left: 25px;
     margin-bottom: 0px;
 }
 #contact-me{
-    margin-top:100px;
+    margin-top:75px;
+    margin-bottom: 75px;
+
 }
 #contact-me ul{
     list-style-type: none;
+    white-space: nowrap;
+    padding: 0 5 0 5;
 }
 #contact-me li{
     font-size: 20px;
