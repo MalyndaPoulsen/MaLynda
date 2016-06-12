@@ -513,6 +513,7 @@ position: absolute;
 #resume{
     text-align: left;
 }
+/*modal print*/
 @media screen {
     #printSection {
         display: none;
