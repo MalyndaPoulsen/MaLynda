@@ -393,6 +393,12 @@ font-size: 15px;
 
 
 /*education page*/
+#title-education{
+    text-align: center; 
+    color: darkgoldenrod; 
+    margin-top: 130px; 
+    margin-bottom: 20px;
+}
 #education-experience{
   background: url('/app/img/BackTarget3.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
@@ -448,18 +454,23 @@ padding-left: 25px;
 
 /*scroll down tag*/
 .scroll-down{
+    background-color: Black;
+    opacity: 0.5;
+    border-radius: 100px;
     text-align:center;
     position: fixed;
     color: white;
-    opacity: .5px;
-    padding: 8px;
-    height: 80px;
-    width: 100px;
+    opacity: 0.5px;
+    height: 90px;
+    width: 90px;
     bottom: 3%;
-   right: 5%;
+    right: 5%;
 }
 .scroll-down p{
-    margin-bottom: -30px;
+    /*margin-bottom: -18px;*/
+    margin-top: 5px;
+    margin-bottom: -5px;
+    padding: 5 5 5 5;
 }
 
 /*contact page*/
@@ -490,7 +501,8 @@ padding-left: 25px;
     height: 98%; 
 }*/
 
-
+/*print version in modal*/
+/*button*/
 #printVersion img{
 position: absolute; 
      width: 75px;
@@ -507,10 +519,10 @@ position: absolute;
     }
 }
 @media print {
-    body * {
+     body {
         visibility:hidden;
     }
-    #printSection, #printSection * {
+    #printSection, #printSection{
         visibility:visible;
     }
     #printSection {
@@ -519,3 +531,8 @@ position: absolute;
         top:0;
     }
 }
+/*@media print {
+    html, body {
+        height: 99%;    
+    }
+}*/
