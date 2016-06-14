@@ -6,6 +6,12 @@ overflow-x: hidden;
 h1, h2, h3, h4, h5, body, p{
   font-family: 'Source Sans Pro', sans-serif;
 }
+#me{
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 1;
+
+}
 
 /*main page*/
 #heading{
@@ -41,6 +47,8 @@ h1, h2, h3, h4, h5, body, p{
 #big-deal{
     width: 100%;
     height:100%;
+    top: 5%;
+    left: 5%;
     position: relative;
      margin-left:-15px;
     margin-right:-15px;
@@ -475,7 +483,12 @@ padding-left: 25px;
   background: white opacity .5;
   color: lightgrey;
 }
+/*#scroller{
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: infinite;
 
+}*/
 /*scroll down tag*/
 .scroll-down{
     background-color: Black;
