@@ -6,7 +6,7 @@
         })
 
          function EducationController() {
-        var pc = this;
+        var ec = this;
     $.fn.extend({
         animateCss: function (animationName) {
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
