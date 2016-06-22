@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, body, p{
 }
 #me{
 animation-duration: 2s;
-animation-delay: 2s;
+animation-delay: 0s;
 animation-iteration-count: 1;
 
 }
@@ -490,7 +490,7 @@ animation-iteration-count: infinite;
 
 }*/
 /*scroll down tag*/
-.scroll-down{
+/*.scroll-down{
     background-color: Black;
     opacity: 0.5;
     border-radius: 100px;
@@ -502,12 +502,20 @@ animation-iteration-count: infinite;
     width: 90px;
     bottom: 3%;
     right: 5%;
-}
-.scroll-down p{
-    /*margin-bottom: -18px;*/
+}*/
+.scroll-down i{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    color: white;
     margin-top: 5px;
     margin-bottom: -5px;
     padding: 5 5 5 5;
+}
+#scroller{
+    animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
 }
 
 /*contact page*/

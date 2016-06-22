@@ -16,7 +16,7 @@
                 });
             }
         });
-    $('#me').animateCss('hinge')
-    $('#scroller').animateCss('slideInLeft');
+    $('#me').animateCss('slideInLeft')
+    $('#scroller').animateCss('flash');
     }
 } ())
