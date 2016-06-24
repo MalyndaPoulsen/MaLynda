@@ -15,7 +15,7 @@ animation-iteration-count: 1;
 
 /*main page*/
 #heading{
-   background:grey url('/app/img/Back3.jpg') center center no-repeat fixed;
+   background:grey url('img/Back3.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -586,4 +586,4 @@ position: absolute;
     html, body {
         height: 100%;    
     }
-}
+
