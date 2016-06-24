@@ -587,3 +587,82 @@ position: absolute;
         height: 100%;    
     }
 
+
+.portfolio-grid{
+    margin-top: 25px;
+    position: relative;
+    height: 700px;
+    width:100%;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    display: block;
+    
+}
+.portfolio-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+      text-decoration: none;
+}
+/*.portfolio-item:hover{
+    /*background-color: white;*/
+    /*opacity: .3;*/
+    /*border: 1px solid grey;
+}*/
+
+.portfolio-caption {
+  color: black;
+
+}
+
+#bookStore{
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+}
+
+#slap{
+animation-duration: 2s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+}
+#todo{
+animation-duration: 2s;
+animation-delay: 3s;
+animation-iteration-count: 1;
+}
+
+#port-buttons{
+      display: inline-block;
+}
+#port-button .i{
+    padding: 10 10 10 10;
+    color: red;
+}
+
+#port-buttons .btn{
+/*position: absolute;*/
+border: 1px solid white;
+background: white;
+opacity: .3;
+border-radius: 5px;
+font-size: 15px;
+color: black;
+margin-top: 5px;
+margin-bottom: 10px;
+height: 35px;
+width: 80px;
+padding: 5 5 5 5;
+margin-right: 5px;
+margin-left: 5px;
+}
+#port-buttons .btn:hover{
+    border: 1px solid white;
+    opacity: .8;
+    background-color: white;
+}
+#port-buttons span{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
