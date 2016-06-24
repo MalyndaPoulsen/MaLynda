@@ -185,7 +185,7 @@ animation-iteration-count: 1;
 .duck3{
     width: 110%;
     height: 100%;
-    background: url('/Malynda/app/img/ducks3.png')repeat-x left center;
+    background: url('/MaLynda/app/img/ducks3.png')repeat-x left center;
     background-size: auto;
     padding: 0px;
     -webkit-animation: displace 7s linear infinite;
@@ -451,7 +451,7 @@ animation-iteration-count: 1;
 
 .ScrollStyle{
     margin-top: 17px;
-    max-height: 350px;
+    max-height: 340px;
     overflow-y: scroll;
     border: .5px solid darkgoldenrod;
     border-radius: 5px;
