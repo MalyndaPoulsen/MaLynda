@@ -15,7 +15,7 @@ animation-iteration-count: 1;
 
 /*main page*/
 #heading{
-   background:grey url('img/Back3.jpg') center center no-repeat fixed;
+   background:grey url('/Malynda/img/Back3.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -53,7 +53,7 @@ animation-iteration-count: 1;
      margin-left:-15px;
     margin-right:-15px;
      padding: 0 0 0 0;
-    background: url('/app/img/Bigdeal.png') center center no-repeat;
+    background: url('/Malynda/img/Bigdeal.png') center center no-repeat;
     -webkit-animation-name: blink;
     -webkit-animation-duration: 1s; 
     animation-name: blink;
@@ -62,13 +62,13 @@ animation-iteration-count: 1;
 }
 
 @-webkit-keyframes blink{
-    0%   {  background: url('/app/img/Bigdeal.png') center center no-repeat;}
-    25%  {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
-    50%  {  background: url('/app/img/Bigdeal.png') center center no-repeat;}
-    100% {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
+    0%   {  background: url('/Malynda/img/Bigdeal.png') center center no-repeat;}
+    25%  {  background: url('/Malynda/img/Bigdeal2.png') center center no-repeat;}
+    50%  {  background: url('/Malynda/img/Bigdeal.png') center center no-repeat;}
+    100% {  background: url('/Malynda/img/Bigdeal2.png') center center no-repeat;}
 }
 @keyframes blink{
-    0%   {  background: url('/app/img/Bigdeal.png') center center no-repeat;}
+    0%   {  background: url('/Malynda/img/Bigdeal.png') center center no-repeat;}
     25%  {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
     50%  {  background: url('/app/img/Bigdeal.png') center center no-repeat;}
     100% {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
