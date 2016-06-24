@@ -587,7 +587,7 @@ position: absolute;
         height: 100%;    
     }
 
-/*
+
 .portfolio-grid{
     margin-top: 25px;
     position: relative;
@@ -595,28 +595,27 @@ position: absolute;
     width:100%;
     margin-left: -15px;
     margin-right: -15px;
-
     display: block;
     
-}*/
-/*.portfolio-item{
+}
+.portfolio-item{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 20px;
       text-decoration: none;
-}*/
-/*.portfolio-item:hover{
-    /*background-color: white;*/
-    /*opacity: .3;*/
-    /*border: 1px solid grey;
-}*/
+}
+.portfolio-item:hover{
+    background-color: white;
+    opacity: .3;
+    border: 1px solid grey;
+}
 
-/*.portfolio-caption {
+.portfolio-caption {
   color: black;
 
-}*/
+}
 
-/*#bookStore{
+#bookStore{
 animation-duration: 2s;
 animation-delay: 0s;
 animation-iteration-count: 1;
@@ -631,9 +630,9 @@ animation-iteration-count: 1;
 animation-duration: 2s;
 animation-delay: 3s;
 animation-iteration-count: 1;
-}*/
+}
 
-/*#port-buttons{
+#port-buttons{
       display: inline-block;
 }
 #port-button .i{
@@ -642,7 +641,7 @@ animation-iteration-count: 1;
 }
 
 #port-buttons .btn{
-/*position: absolute;
+position: absolute;
 border: 1px solid white;
 background: white;
 opacity: .3;
@@ -673,7 +672,7 @@ margin-left: 5px;
 #work h1{
     font-size: 80px;
     color: lightgrey;
-      /*color:goldenrod;
+      color:goldenrod;
    font-family: 'Mrs Saint Delafield', cursive;
     margin-bottom: -30px;
     
@@ -693,4 +692,4 @@ margin-left: 5px;
 padding-right: 5px;
 padding-left: 5px;
 width: 10%;
-}*/
+}
