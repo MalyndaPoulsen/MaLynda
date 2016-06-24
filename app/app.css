@@ -69,9 +69,9 @@ animation-iteration-count: 1;
 }
 @keyframes blink{
     0%   {  background: url('/Malynda/img/Bigdeal.png') center center no-repeat;}
-    25%  {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
-    50%  {  background: url('/app/img/Bigdeal.png') center center no-repeat;}
-    100% {  background: url('/app/img/Bigdeal2.png') center center no-repeat;}
+    25%  {  background: url('/Malynda/img/Bigdeal2.png') center center no-repeat;}
+    50%  {  background: url('/Malynda/img/Bigdeal.png') center center no-repeat;}
+    100% {  background: url('/Malynda/img/Bigdeal2.png') center center no-repeat;}
 }
 
 .module-hero{
@@ -185,7 +185,7 @@ animation-iteration-count: 1;
 .duck3{
     width: 110%;
     height: 100%;
-    background: url('/app/img/ducks3.png')repeat-x left center;
+    background: url('/Malynda/img/ducks3.png')repeat-x left center;
     background-size: auto;
     padding: 0px;
     -webkit-animation: displace 7s linear infinite;
