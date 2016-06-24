@@ -589,6 +589,7 @@ position: absolute;
 
 
 .portfolio-grid{
+    background-color: red;
     margin-top: 25px;
     position: relative;
     height: 700px;
