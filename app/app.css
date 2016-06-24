@@ -673,7 +673,7 @@ margin-left: 5px;
 #work h1{
     font-size: 80px;
     color: lightgrey;
-      color:goldenrod;
+    color:goldenrod;
    font-family: 'Mrs Saint Delafield', cursive;
     margin-bottom: -30px;
     
@@ -689,7 +689,7 @@ margin-left: 5px;
 }
 
 .portfolio-item img{
-    padding-top: 5px;
+padding-top: 5px;
 padding-right: 5px;
 padding-left: 5px;
 width: 10%;
