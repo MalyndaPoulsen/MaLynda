@@ -587,7 +587,7 @@ position: absolute;
         height: 100%;    
     }
 
-
+/*
 .portfolio-grid{
     margin-top: 25px;
     position: relative;
@@ -598,25 +598,25 @@ position: absolute;
 
     display: block;
     
-}
-.portfolio-item{
+}*/
+/*.portfolio-item{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 20px;
       text-decoration: none;
-}
+}*/
 /*.portfolio-item:hover{
     /*background-color: white;*/
     /*opacity: .3;*/
     /*border: 1px solid grey;
 }*/
 
-.portfolio-caption {
+/*.portfolio-caption {
   color: black;
 
-}
+}*/
 
-#bookStore{
+/*#bookStore{
 animation-duration: 2s;
 animation-delay: 0s;
 animation-iteration-count: 1;
@@ -631,7 +631,7 @@ animation-iteration-count: 1;
 animation-duration: 2s;
 animation-delay: 3s;
 animation-iteration-count: 1;
-}
+}*/
 
 /*#port-buttons{
       display: inline-block;
