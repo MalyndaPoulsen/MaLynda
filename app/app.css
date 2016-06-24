@@ -642,12 +642,12 @@ animation-iteration-count: 1;
 
 #port-buttons .btn{
 position: absolute;
-border: 1px solid white;
-background: white;
+border: 1px solid grey;
+background: black;
 opacity: .3;
 border-radius: 5px;
 font-size: 15px;
-color: black;
+color: white;
 margin-top: 5px;
 margin-bottom: 10px;
 height: 35px;
@@ -659,7 +659,8 @@ margin-left: 5px;
 #port-buttons .btn:hover{
     border: 1px solid white;
     opacity: .8;
-    background-color: white;
+    background-color: grey;
+    color: black;
 }
 #port-buttons span{
     padding-top: 5px;
