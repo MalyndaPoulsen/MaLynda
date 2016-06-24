@@ -666,3 +666,19 @@ margin-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+#work{
+    padding-top:70px;
+    margin-bottom: 70px;
+}
+#work h1{
+    font-size: 80px;
+    color: lightgrey;
+      /*color:goldenrod;*/
+   font-family: 'Mrs Saint Delafield', cursive;
+    margin-bottom: -30px;
+    
+}
+#work .row{
+    margin-top: 35px;
+    text-align: center;
+}
