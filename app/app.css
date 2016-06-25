@@ -338,8 +338,10 @@ margin-bottom: 60px;
     margin-bottom: 70px;
 }
 
+.con h2{
+    color:goldenrod;
 
-
+}
 
 
 
@@ -509,11 +511,24 @@ animation-iteration-count: 5;
 
 /*print version in modal*/
 /*button*/
+#social .col-xs-3{
+    text-align: center;
+}
+.row i, label, span{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 130%;
+}
+.row span{
+    font-size: 150%;
+    padding-top: 18px;
+    color: goldenrod;
+}
 #printVersion img{
-position: absolute; 
+/*position: relative; */
+text-align: center;
      width: 75px;
-    top: 36px;
-    left: 0px;
+     margin-top:5px; 
     opacity: .8;
 }
 #resume{
@@ -757,3 +772,6 @@ background-color: transparent;
     text-align: center;
     margin-top: 20px;
     }*/
+#printVersion img{
+    margin-top: -15px;
+}
