@@ -636,10 +636,10 @@ animation-iteration-count: 1;
 #port-buttons{
       display: inline-block;
 }
-#port-button .i{
+/*#port-button .i{
     padding: 10 10 10 10;
     color: red;
-}
+}*/
 
 #port-buttons .btn{
 position: absolute;
