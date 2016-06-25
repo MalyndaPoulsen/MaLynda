@@ -37,11 +37,7 @@ animation-iteration-count: 1;
     padding-left: 0px;
 }
 
-/*.hero{
-    height: 100%;
-    position: relative;
-    text-align: center;
-}*/
+
 /*bigdeal animation*/
 
 #big-deal{
@@ -111,6 +107,8 @@ animation-iteration-count: 1;
        padding-top:150px;
    }
 
+/*
+Duck shoot*/
 
 #title h1{
    color: e7ae22;
@@ -246,57 +244,6 @@ width:100%;
 height:20%;
 margin: 0 0 0 0;
 }
-#race .progress{
-margin-bottom: 60px;
-}
-
-.progress-bar{
-    background-color: darkgrey;
-    margin-bottom: 40px;
-}
-#about{
-    padding-top: 110px;
-    padding-bottom: 110px;
-   
-}
-.about{
-    margin-top: 42px;
-}
-.about p, li{
-   text-align: left;
-font-size: 15px;
-}
-#about-me {
-    text-align: center;
-     padding-bottom:20px;
-     margin-bottom: 20px;
-}
-
-#race{
-    margin-top: 86px;
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right:0px;
-}
-#horse-6{
-    height:60%; 
-    left: num; 
-    position: absolute; 
-    top:-60%;
-
-}
-#race h6{
-    margin-bottom: 41px;
-}
-#race .progress{
-    margin-bottom: 70px;
-}
-#portfolio-grid{
-        position: relative;
-    height: 600px;
-}
 .text{
     color: red;
     text-align: center;
@@ -338,14 +285,65 @@ font-size: 15px;
     background-size: cover;
 }
 
-/*portfolio*/
-#work{
-    padding-top:100px;
+/*about page*/
+
+#about{
+    padding-top: 110px;
+    padding-bottom: 110px;
+   
 }
-#work .row{
-    margin-top: 35px;
+.about{
+    margin-top: 42px;
+}
+.about p, li{
+   text-align: left;
+font-size: 15px;
+}
+#about-me {
     text-align: center;
+     padding-bottom:20px;
+     margin-bottom: 20px;
 }
+
+/*race horses*/
+#race .progress{
+margin-bottom: 60px;
+}
+
+.progress-bar{
+    background-color: darkgrey;
+    margin-bottom: 40px;
+}
+
+#race{
+    margin-top: 86px;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+#horse-6{
+    height:60%; 
+    left: num; 
+    position: absolute; 
+    top:-60%;
+
+}
+#race h6{
+    margin-bottom: 41px;
+}
+#race .progress{
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+/*portfolio*/ 
+/*filters*/
 #port-filters{
     /*display: table;*/
     margin-top:0;
@@ -378,51 +376,8 @@ font-size: 15px;
     padding-right: 15px;
     color: black;
 }
-.portfolio-grid-wrapper{
-        margin: 0 -5px;
-}
-.portfolio-grid{
-    margin-top: 25px;
-    position: relative;
-    height: 500px;
-    width:100%;
-    display: block;
-}
 
-.portfolio-caption {
-  color: black;
-}
-#bookStore{
-animation-duration: 2s;
-animation-delay: 0s;
-animation-iteration-count: 1;
-}
-
-#slap{
-animation-duration: 2s;
-animation-delay: 1s;
-animation-iteration-count: 1;
-height: 460px; 
-left: 335px; 
-top: 0px;
-}
-#todo{
-animation-duration: 2s;
-animation-delay: 3s;
-animation-iteration-count: 1;
-}
-
-/*#skills ul{
-    margin-left:-15;
-    margin-right: -15;
-    margin-bottom: 54px;
-    color: lightgrey;
-  border-top: 0;
-  border-bottom:0;
-    border-left: 1px solid darkred;
-      border-right: 1px solid darkred;
-}*/
-
+/*portfolio*/
 
 
 /*education page*/
@@ -588,6 +543,14 @@ position: absolute;
     }
 
 
+
+/*Portfolio*/
+
+
+
+.portfolio-grid-wrapper{
+        margin: 0 -5px;
+}
 .portfolio-grid{
     background-color: red;
     margin-top: 25px;
@@ -597,7 +560,21 @@ position: absolute;
     margin-left: -15px;
     margin-right: -15px;
     display: block;
+     position: relative;
     
+}
+
+#portfolio{
+      background-color: black;
+      margin-left: -15px;
+      margin-right: -15px;  
+}
+
+.portfolio-item img{
+padding-top: 5px;
+padding-right: 5px;
+padding-left: 5px;
+width: 100%;
 }
 .portfolio-item{
     margin-left: 5px;
@@ -696,6 +673,7 @@ margin-left: 5px;
     padding-top:70px;
     margin-bottom: 70px;
 }
+
 #work h1{
     font-size: 80px;
     color: lightgrey;
@@ -707,16 +685,4 @@ margin-left: 5px;
 #work .row{
     margin-top: 35px;
     text-align: center;
-}
-#portfolio{
-      background-color: black;
-      margin-left: -15px;
-      margin-right: -15px;  
-}
-
-.portfolio-item img{
-padding-top: 5px;
-padding-right: 5px;
-padding-left: 5px;
-width: 100%;
 }
