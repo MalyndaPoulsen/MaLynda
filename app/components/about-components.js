@@ -18,6 +18,7 @@
             numb: 93,
             start: 0,
             starter: 0,
+
         },
             {
                 id: 2,
@@ -67,7 +68,9 @@
 
 
         ac.moveBar = function (id, numb) {
+
             $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
+
         }
 
         ac.moveHorse = function (id, num) {
@@ -76,6 +79,7 @@
 
         ac.reset = function (id, start) {
             $("#horse-" + id).animate({ left: start + '%' }, 1, 'linear');
+
         };
 
         ac.resetBar = function (id, starter) {
@@ -104,6 +108,7 @@
             }
 
         }
+
 
 
 

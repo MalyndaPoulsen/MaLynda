@@ -23,6 +23,11 @@
                     $('#bookStore').animateCss('bounceInRight');
                      $('#slap').animateCss('bounceInLeft');
                       $('#todo').animateCss('bounceInDown');
+                       $('#CSS').animateCss('bounceInDown');
+                        $('#musicStore').animateCss('zoomIn');
+                         $('#Pop-Up').animateCss('slideInleft');
+                          $('#zooKeeper').animateCss('rollIn');
+                          $('#Pop-UpDevil').animateCss('zoomInUp');
                 }
             }
         })
