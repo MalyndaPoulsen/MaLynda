@@ -571,7 +571,9 @@ animation-iteration-count: 1;
 animation-delay: 4s;
 animation-iteration-count: 1;
 }
-
+.portfolio-item img:hover{
+opacity: .5;
+}
 #port-buttons{
       display: inline-block;
       margin-right: 12px;
