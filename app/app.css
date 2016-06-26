@@ -669,6 +669,6 @@ color: white;
     }
 
     /*resume*/
-    #resume h1, h2, h3, h4, p, li{
+    #resume{
   font-family: 'Source Sans Pro', sans-serif;
     }
