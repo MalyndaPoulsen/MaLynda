@@ -43,12 +43,12 @@ animation-iteration-count: 1;
 #big-deal{
     width: 100%;
     height:100%;
-    top: 5%;
+    top: 1%;
     left: 5%;
     position: relative;
      margin-left:-15px;
     margin-right:-15px;
-     padding: 0 0 0 0;
+     padding: 0 0 10 0;
     background: url('/app/img/Bigdeal.png') center center no-repeat;
     -webkit-animation-name: blink;
     -webkit-animation-duration: 1s; 
@@ -80,7 +80,7 @@ animation-iteration-count: 1;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
-    height: 100%;
+    height: 120%;
 }
 #heading h1{
    color: e7ae22;
@@ -139,7 +139,9 @@ Duck shoot*/
         background-color: transparent;
    }
    #title-skills h2{
-   font-family: 'Helvetica', Neue;
+   /*font-family: 'Helvetica', Neue;*/
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 80px;
    color: e7ae22;
    margin-top:10px;
    margin-bottom: 0px;
@@ -295,8 +297,12 @@ margin: 0 0 0 0;
     padding-bottom: 110px;
 
 }
+.module-subtitle{
+    font-size: 17px;
+}
 .about{
     margin-top: 42px;
+    padding-right: 20px;
 }
 .about p, li{
    text-align: left;
@@ -306,8 +312,12 @@ font-size: 15px;
     text-align: center;
      padding-bottom:20px;
      margin-bottom: 20px;
+     
 }
-
+#about-me h2{
+     font-family: 'Mrs Saint Delafield', cursive;
+     font-size: 80px;
+}
 /*race horses*/
 #race .progress{
 margin-bottom: 60px;
@@ -344,126 +354,7 @@ margin-bottom: 60px;
     color:goldenrod;
 
 }
-
-
-
-/*portfolio*/ 
-/*filters*/
-    /*display: table;*/
-/*#port-filters{
-    margin-top:0;
-        margin-left: -15px;
-    margin-right: -15px;
-    margin-bottom: 45px;
-}
-#port-filters .filt{
-    margin-top: 5px;
-}
-.filt ul{
-    margin-top: 0px;
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    text-align: center;
-  
-}
-.filt a{
-       color: black;
-}
-.filt a:hover{
-       color: grey;
-}
-.filt ul li{
-    display: inline;
-        position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-    color: black;
-}*/
-
-/*portfolio*/
-
-
-/*education page*/
-/*#title-education{
-    text-align: center; 
-    color: darkgoldenrod; 
-    margin-top: 130px; 
-    margin-bottom: 20px;
-}
-#education-experience{
-  background: url('/app/img/BackTarget3.jpg') center center no-repeat fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- height: 110%;
-    margin-left: -15px;
-    margin-right: -15px;
-    border-bottom: 3px solid darkgoldenrod;
-
-}
-
-.ScrollStyle ul{
-    color: lightgrey;
-}
-
-.ScrollStyle{
-    margin-top: 17px;
-    max-height: 340px;
-    overflow-y: scroll;
-    border: .5px solid darkgoldenrod;
-    border-radius: 5px;
-}
-
-.ScrollStyle li{
-    opacity: .50; 
-    filter: alpha(opacity=50);
-    -ms-filter: "alpha(opacity=50)"; 
-    -khtml-opacity: .50;
-    -moz-opacity: .50; 
-margin-top:10px;
-margin-right:50px;
-margin-left:50px;
-margin-bottom: 10px;
-padding-top: 0px;
-padding-right: 25px;
-padding-bottom: 0px;
-padding-left: 25px;
-}
-
-#education-text {
-       text-align: right;
-    margin-top: 20px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-     padding: 0 0 0 0;
-    margin: 0 -15 0 -15;
-  background: white opacity .5;
-  color: lightgrey;
-}*/
-/*#scroller{
-animation-duration: 2s;
-animation-delay: 1s;
-animation-iteration-count: infinite;
-
-}*/
-/*scroll down tag*/
-/*.scroll-down{
-    background-color: Black;
-    opacity: 0.5;
-    border-radius: 100px;
-    text-align:center;
-    position: fixed;
-    color: white;
-    opacity: 0.5px;
-    height: 90px;
-    width: 90px;
-    bottom: 3%;
-    right: 5%;
-}*/
+/*scroll*/
 .scroll-down i{
     position: absolute;
     bottom: 0%;
@@ -585,18 +476,15 @@ text-align: center;
     margin-bottom: 70px;
    
 }
-/*.port .h2{
 
-      text-align: center;
-}*/
 
 #port h2{
     text-align: center;
     font-size: 80px;
-    color: red;
+   margin-top: 15px;
     /*color:goldenrod;*/
    font-family: 'Mrs Saint Delafield', cursive;
-    margin-bottom: -30px;
+    margin-bottom: 10px;
 }
 #work .port{
     margin-top: 75px;
@@ -604,9 +492,9 @@ text-align: center;
 }
 
 
-/*.portfolio-grid-wrapper{
+.portfolio-grid-wrapper{
         margin: 0 -5px;
-}*/
+}
 .portfolio-grid{
 
     margin-top: 25px;
@@ -621,7 +509,6 @@ text-align: center;
 }
 #portfolio{
     text-align: center;
-     
       margin-left: -15px;
       margin-right: -15px;  
 }
@@ -635,22 +522,17 @@ width: 50%;
 .portfolio-item{
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 20px;
-text-decoration: none;
+    margin-bottom: 40px;
+    position: relative;
+/*text-decoration: none;*/
 }
-.portfolio-item:hover{
-    background-color: white;
-    opacity: .3;
-    border: 1px solid grey;
-}
-.portfolio-caption {
-  color: black;
 
-}
+/*Portfolio*/
+
 
 #bookStore{
 animation-duration: 2s;
-animation-delay: 0s;
+animation-delay: 1s;
 animation-iteration-count: 1;
 }
 
@@ -660,18 +542,18 @@ animation-delay: 1s;
 animation-iteration-count: 1;
 }
 #todo{
-animation-duration: 2s;
-animation-delay: 3s;
-animation-iteration-count: 6;
+animation-duration: 1s;
+animation-delay: 2s;
+animation-iteration-count: 1;
 }
 #Pop-UpDevil{
-   animation-duration: 2s;
-animation-delay: 3s;
+   animation-duration: 3s;
+animation-delay: 4s;
 animation-iteration-count: 1; 
 }
 #Pop-Up{
 animation-duration: 2s;
-animation-delay: 3s;
+animation-delay: 4s;
 animation-iteration-count: 1;  
 }
 #musicStore{
@@ -680,26 +562,27 @@ animation-delay: 3s;
 animation-iteration-count: 1;   
 }
 #CSS{
-          animation-duration: 2s;
-animation-delay: 3s;
+animation-duration: 3s;
+animation-delay: 1s;
 animation-iteration-count: 1;   
 }
 #zooKeeper{
-         animation-duration: 2s;
-animation-delay: 3s;
+         animation-duration: 3s;
+animation-delay: 4s;
 animation-iteration-count: 1;
 }
 
 #port-buttons{
       display: inline-block;
+      margin-right: 12px;
 }
-#port-button .i{
+/*#port-button .i{
     padding: 10 10 10 10;
     color: red;
-}
+}*/
 
 #port-buttons .btn{
-position: absolute;
+
 border: 1px solid grey;
 background: black;
 opacity: .3;
@@ -720,9 +603,10 @@ margin-left: 5px;
     background-color: grey;
     color: black;
 }
-#port-buttons span{
-    padding-top: 5px;
-    padding-bottom: 5px;
+#port-buttons .fa{
+  color: white;
+    padding-top: 0px;
+    padding-bottom: 25px;
 }
 
 
@@ -731,12 +615,12 @@ margin-left: 5px;
 }
 
 /*contact page*/
-/*#contact-me div, h4, h5, h2{
+#contact-me div, h4, h5, h2{
   text-align: center;
   
   padding-bottom: 0px;
-}*/
-/*#contact-me h2{
+}
+#contact-me h2{
     color:goldenrod;
     font-family: 'Mrs Saint Delafield', cursive;
     font-size: 100px;
@@ -763,34 +647,28 @@ margin-left: 5px;
 .header h2{
     margin-top: 75px;
 }
-#social links{
-    display: inline-block;
-    color: black;
-}*/
-/*.name h1{
+
+.name h1{
     margin-top: 10px;
    
-}*/
-
-.list-inline li .btn{
-display: inline-block;
-margin-left: 35px;
-color: white;
-background-color: transparent;
-  padding: 15px 10px; 
-  font-weight: 800; 
 }
-/*#social{
-    background-color: black;
-    height: 60px;
-    color: white;
-    margin-top: 20px;
-}*/
-/*#social .fa{
-    margin-top: 6px;
-    padding-top: 10px;
-}*/
-/*.num {
-    text-align: center;
-    margin-top: 20px;
-    }*/
+
+
+    .row .emails{
+padding-top: 30px;
+padding-bottom: 30px;
+color: white;
+    }
+        .row .num{
+padding-top: 30px;
+padding-bottom: 30px;
+color: white;
+    }
+    footer{
+        background-color: black;
+    }
+
+    /*resume*/
+    #resume h1, h2, h3, h4, p, li{
+  font-family: 'Source Sans Pro', sans-serif;
+    }

@@ -8,15 +8,14 @@
 
     function AboutController() {
         var ac = this;
-        var num = -8;
-        var numb = 0;
+      
 
 
         var paramsArray = [{
             id: 1,
             num: 81,
             numb: 93,
-            start: 0,
+            start: -8,
             starter: 0,
 
         },
@@ -24,42 +23,42 @@
                 id: 2,
                 num: 66,
                 numb: 77,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
             {
                 id: 3,
                 num: 37,
                 numb: 46,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
             {
                 id: 4,
                 num: 50,
                 numb: 60,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
             {
                 id: 5,
                 num: 70,
                 numb: 81,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
             {
                 id: 6,
                 num: 36,
                 numb: 45,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
             {
                 id: 7,
                 num: 88,
                 numb: 100,
-                start: 0,
+                start: -8,
                 starter: 0,
             },
 
@@ -69,7 +68,7 @@
 
         ac.moveBar = function (id, numb) {
 
-            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
+            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2500, 'linear');
 
         }
 
@@ -114,7 +113,7 @@
 
         // reset horses
         var waypoint5 = new Waypoint({
-            element: document.getElementById('big-deal'),
+            element: document.getElementById('me'),
             handler: function (direction) {
                 if (direction === 'down') {
                     reset();
@@ -128,7 +127,8 @@
             handler: function (direction) {
                 if (direction === 'down') {
                     getParams();
-                } if(direction === 'up'){
+                } 
+                if(direction === 'up'){
                     reset();
                 }
             }
