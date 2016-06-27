@@ -15,7 +15,7 @@ animation-iteration-count: 1;
 
 /*main page*/
 #heading{
-   background:grey url('MaLynda/app/img/Back3.jpg') center center no-repeat fixed;
+   background:grey url('/MaLynda/app/img/Back3.jpg') center center no-repeat fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -49,7 +49,7 @@ animation-iteration-count: 1;
      margin-left:-15px;
     margin-right:-15px;
      padding: 0 0 10 0;
-    background: url('MaLynda/app/img/Bigdeal.png') center center no-repeat;
+    background: url('/MaLynda/app/img/Bigdeal.png') center center no-repeat;
     -webkit-animation-name: blink;
     -webkit-animation-duration: 1s; 
     animation-name: blink;
@@ -58,16 +58,16 @@ animation-iteration-count: 1;
 }
 
 @-webkit-keyframes blink{
-    0%   {  background: url('MaLynda/app/img/Bigdeal.png') center center no-repeat;}
-    25%  {  background: url('MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
-    50%  {  background: url('MaLynda/app/img/Bigdeal.png') center center no-repeat;}
-    100% {  background: url('MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
+    0%   {  background: url('/MaLynda/app/img/Bigdeal.png') center center no-repeat;}
+    25%  {  background: url('/MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
+    50%  {  background: url('/MaLynda/app/img/Bigdeal.png') center center no-repeat;}
+    100% {  background: url('/MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
 }
 @keyframes blink{
-    0%   {  background: url('MaLynda/app/img/Bigdeal.png') center center no-repeat;}
-    25%  {  background: url('MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
-    50%  {  background: url('MaLynda/app/img/Bigdeal.png') center center no-repeat;}
-    100% {  background: url('MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
+    0%   {  background: url('/MaLynda/app/img/Bigdeal.png') center center no-repeat;}
+    25%  {  background: url('/MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
+    50%  {  background: url('/MaLynda/app/img/Bigdeal.png') center center no-repeat;}
+    100% {  background: url('/MaLynda/app/img/Bigdeal2.png') center center no-repeat;}
 }
 
 .module-hero{
@@ -188,7 +188,7 @@ Duck shoot*/
 .duck3{
     width: 110%;
     height: 100%;
-    background: url('MaLynda/app/img/ducks3.png')repeat-x left center;
+    background: url('/MaLynda/app/img/ducks3.png')repeat-x left center;
     background-size: auto;
     padding: 0px;
     -webkit-animation: displace 7s linear infinite;
@@ -197,7 +197,7 @@ Duck shoot*/
 .duck2{
     width: 110%;
     height: 100%;
-    background: url('MaLynda/app/img/ducks2.png')repeat-x left center;
+    background: url('/MaLynda/app/img/ducks2.png')repeat-x left center;
     background-size: auto;
     padding: 0px;
     -webkit-animation: displace 7s linear infinite;
@@ -206,7 +206,7 @@ Duck shoot*/
 .duck1{
     width: 110%;
     height: 100%;
-      background: url('MaLynda/app/img/ducks1.png')repeat-x left center;
+      background: url('/MaLynda/app/img/ducks1.png')repeat-x left center;
     background-image: repeat-x left center;
     background-size: auto;
     padding: 0px;
@@ -243,7 +243,7 @@ to
 
 
 .wv{
- background: url('MaLynda/app/img/wave1a.png')repeat-x top left;
+ background: url('/MaLynda/app/img/wave1a.png')repeat-x top left;
  background-size: 100%;
 width:100%;
 height:20%;
