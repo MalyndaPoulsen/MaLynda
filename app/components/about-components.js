@@ -8,8 +8,7 @@
 
     function AboutController() {
         var ac = this;
-        var num = -8;
-        var numb = 0;
+      
 
 
         var paramsArray = [{
@@ -69,7 +68,7 @@
 
         ac.moveBar = function (id, numb) {
 
-            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2700, 'linear');
+            $("#horse-" + id + "-progress").animate({ 'width': numb + '%' }, 2500, 'linear');
 
         }
 
@@ -114,7 +113,7 @@
 
         // reset horses
         var waypoint5 = new Waypoint({
-            element: document.getElementById('big-deal'),
+            element: document.getElementById('me'),
             handler: function (direction) {
                 if (direction === 'down') {
                     reset();
@@ -128,7 +127,8 @@
             handler: function (direction) {
                 if (direction === 'down') {
                     getParams();
-                } if(direction === 'up'){
+                } 
+                if(direction === 'up'){
                     reset();
                 }
             }
