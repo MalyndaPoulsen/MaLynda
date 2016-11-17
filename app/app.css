@@ -444,7 +444,7 @@ text-align: center;
 }
 /*modal print*/
 @media screen {
-    #printSection {
+    #printThis {
         display: none;
     }
 }
